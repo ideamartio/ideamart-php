@@ -13,7 +13,6 @@ Imagine you need to send an SMS and get the delivery notification, invoke a USSD
   - ###### Go -  [API Reference](http://breakdance.io)
   
   
-
 #### Ideamart by Product
 
   - ###### SMS API(Short Message Service)
@@ -41,7 +40,7 @@ If you have PHP installed locally or a server and you would like to use PHP's bu
 
 
 ```sh
-$ git clone <<ideamart url>>
+$ git clone <<https://github.com/ideamartio/ideamart-php.git>>
 ```
 
 or download the developer bundle with   [sample codes](http://www.ideamart.lk/web/idea-pro/downloads/download-list/) here 
