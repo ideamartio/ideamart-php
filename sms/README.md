@@ -1,7 +1,7 @@
 
 # Ideamart SMS PHP Quickstart
-## Sample app created with dialog ideamart SMS PHP API's  and Avengers theme
-Find out which Avenger Character are you in Avengers Infinity War , type `mesg` `marvel` `your name` and send to 77177 from your Dialog , Hutch number  for  Airtel numbers type `msg` `marvel` `your name` and send to 77177
+## Sample app created with dialog ideamart SMS PHP API
+Find out which Avenger Character are you in Avengers Infinity War , type `mesg` `go` `your name` and send to 77177 from your Dialog , Hutch number  for  Airtel numbers type `msg` `go` `your name` and send to 77177
 
 
 
