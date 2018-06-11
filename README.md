@@ -14,14 +14,24 @@ Find out which Avenger Character are you in Avengers Infinity War , type `mesg` 
 
 What do you get when you couple your programming knowledge with the Ideamart platform? An IdeaPro application with endless possibilities!
 Imagine you need to send an SMS and get the delivery notification, invoke a USSD menu in a registered user’s phone, or even make an in in-app purchase through the carrier billing! IdeaPro is where you can bring your ideas to life!
+  
+  #### Ideamart by Platform
 
-  - SMS API(Short Message Service)
-  - USSD API(Unstructured Supplementary Service Data)
-  - CaaS API(Charging as a Service)
-  - LBS API (Location Based Service)
-  - Subscription API
-  - IVR API
+  - ###### Java  - [API Reference](http://breakdance.io)
+  - ###### PHP -  [API Reference](http://breakdance.io)
+  - ###### Phython -  [API Reference](http://breakdance.io)
+  - ###### Go -  [API Reference](http://breakdance.io)
+  
+  
 
+#### Ideamart by Product
+
+  - ###### SMS API(Short Message Service)
+  - ###### USSD API(Unstructured Supplementary Service Data)
+  - ###### CaaS API(Charging as a Service)
+  - ###### LBS API (Location Based Service)
+  - ###### Subscription API
+  - ###### IVR API
 
 # New Features!
 
