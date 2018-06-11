@@ -1,13 +1,3 @@
-# ideamart-php
-
-## Sample app created with dialog ideamart SMS PHP API's  and Avengers theme
-
-A Sample application built using ideamart SMS PHP API, using the classes here you can recieve messages, send messages to a address, list of addressses or a broadcast message and log using the log class.
-
-Find out which Avenger Character are you in Avengers Infinity War , type `mesg` `marvel` `your name` and send to 77177 from your Dialog , Hutch number  for  Airtel numbers type `msg` `marvel` `your name` and send to 77177
-
-
-
 # Welcome to Ideamart
 
 [![N|Solid](http://www.ideamart.lk/web/wp-content/uploads/2017/02/logo-dark.png)](https://nodesource.com/products/nsolid)
