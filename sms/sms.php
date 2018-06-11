@@ -8,8 +8,8 @@ PHP Quickstart guide - Ideamart Developer Bundle
 ini_set('error_log', 'sms-app-error.log');
 
 /*** specify your sms libraries here ****/
-include 'lib/SMSSender.php';
-include 'lib/SMSReceiver.php';
+include_once '../../lib/sms/SmsReceiver.php';
+include_once '../../lib/sms/SmsSender.php';
 
 /*** specify your current timezone here ****/
 date_default_timezone_set("Asia/Colombo");
