@@ -40,7 +40,7 @@ If you have PHP installed locally or a server and you would like to use PHP's bu
 
 
 ```sh
-$ git clone <<https://github.com/ideamartio/ideamart-php.git>>
+$ git clone << https://github.com/ideamartio/ideamart-php.git >>
 ```
 
 or download the developer bundle with   [sample codes](http://www.ideamart.lk/web/idea-pro/downloads/download-list/) here 
