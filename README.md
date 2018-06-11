@@ -28,7 +28,7 @@ Imagine you need to send an SMS and get the delivery notification, invoke a USSD
   - offline simulator which you can test your apps
 
 ### Server Requirments 
-ideamart officially support PHP and Java programming languages
+ideamart officially support PHP, Java, Python, Go, Nodejs programming languages
 
 ##### php requirments
 PHP >= 5.6 is supported 
