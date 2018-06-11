@@ -1,5 +1,5 @@
 
-# AvengersInfinityWar-SMS-PHP
+# Ideamart SMS PHP Quickstart
 ## Sample app created with dialog ideamart SMS PHP API's  and Avengers theme
 Find out which Avenger Character are you in Avengers Infinity War , type `mesg` `marvel` `your name` and send to 77177 from your Dialog , Hutch number  for  Airtel numbers type `msg` `marvel` `your name` and send to 77177
 
