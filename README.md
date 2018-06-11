@@ -25,6 +25,13 @@ Imagine you need to send an SMS and get the delivery notification, invoke a USSD
 # New Features!
 
   - offline simulator which you can test your apps
+  
+ # Feedback
+Report any feedback or problems with this Release Candidate to the Github Issues for twilio-python.
+
+# Getting Started
+
+Getting started with the Twilio API couldn't be easier
 
 ### Server Requirments 
 ideamart officially support PHP, Java, Python, Go, Nodejs programming languages
@@ -34,6 +41,7 @@ PHP >= 5.6 is supported
 
 ##### Java requirments
 ...
+
 
 ### Installation
 If you have PHP installed locally or a server and you would like to use PHP's built-in development server to serve your application,
