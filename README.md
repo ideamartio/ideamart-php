@@ -8,60 +8,48 @@ Find out which Avenger Character are you in Avengers Infinity War , type `mesg` 
 
 
 
-# Getting Started
-These instructions will get you a copy of the project up and running on your local machine or live server for development and testing purposes.
+# Welcome to Ideamart
 
-## Prerequisites
-you will need to know the process of creating a connect account , Ideamart account and requesting for a hosting space
-Check @shafrazrahim [tutorial](https://youtu.be/4JLFjWp6mEw)
+[![N|Solid](http://www.ideamart.lk/web/wp-content/uploads/2017/02/logo-dark.png)](https://nodesource.com/products/nsolid)
 
-## Installing
+What do you get when you couple your programming knowledge with the Ideamart platform? An IdeaPro application with endless possibilities!
+Imagine you need to send an SMS and get the delivery notification, invoke a USSD menu in a registered user’s phone, or even make an in in-app purchase through the carrier billing! IdeaPro is where you can bring your ideas to life!
 
-you can use git clone method or direct download method to download the code
-```sh
-	$ git clone https://github.com/djsharox/AvengersInfinityWar-SMS-PHP.git
-```
-### Send your first SMS
+  - SMS API(Short Message Service)
+  - USSD API(Unstructured Supplementary Service Data)
+  - CaaS API(Charging as a Service)
+  - LBS API (Location Based Service)
+  - Subscription API
+  - IVR API
 
-Error log and sms libraries are initiated in the begenning 
 
-```sh
-	$serverurl= "https://api.dialog.lk/sms/send";
-	$applicationId = "APP_XXXXXX";
-	$password= "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
-```
+# New Features!
 
-- **Server URL** :- Send service supports only POST HTTP requests. An application wishing to initiate an MT (Mobile Terminated – Delivery of messages from an Ideamart application to a mobile subscriber’s handset) SMS message should use this.
-- **Application Id** :- The developer will recieve application ID in provisioning
-- **Password** :- The developer will recieve password in provisioning
+  - offline simulator which you can test your apps
 
-Try catch method is used to capture data , **SMSReceiver** initialize the received message to a **$receiver** 
-```sh
-	$receiver = new SMSReceiver(file_get_contents('php://input'));
-```
-Then **$receiver** calls **getMessage()** , **getAddress()** and **getRequested()** to capture data.
+### Server Requirments 
+ideamart officially support PHP and Java programming languages
 
-```sh
-	$content = $receiver->getMessage();
-	$address = $receiver->getAddress();
-	$requestId = $receiver->getRequestID();
-	$applicationId = $receiver->getApplicationId();
-```
+##### php requirments
+PHP >= 5.6 is supported 
 
- **$sender** allocate the broadcasting message to **sendMessage()** 
+##### Java requirments
+...
+
+### Installation
+If you have PHP installed locally or a server and you would like to use PHP's built-in development server to serve your application,
+
 
 ```sh
-	$sender->sendMessage($third.",your hidden marvel character is ".$mycharacter,$address);
+$ git clone <<ideamart url>>
 ```
 
-## Deployment
-- Uploading the built Php script to hosting space
+or download the developer bundle with   [sample codes](http://www.ideamart.lk/web/idea-pro/downloads/download-list/) here 
 
-Watch Part 3 of the tutorial https://youtu.be/_6NrBCjie6o
 
-- Provisioning (registering) your application, obtaining the app id and the password and checking in limited production
+License
+----
 
-Watch Part 4 of the tutorial https://youtu.be/KhMovZXvNZQ
-
+MIT
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details
