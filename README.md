@@ -26,8 +26,6 @@ Imagine you need to send an SMS and get the delivery notification, invoke a USSD
 
   - offline simulator which you can test your apps
   
- # Feedback
-Report any feedback or problems with this Release Candidate to the Github Issues for twilio-python.
 
 # Getting Started
 
@@ -52,6 +50,9 @@ $ git clone << https://github.com/ideamartio/ideamart-php.git >>
 ```
 
 or download the developer bundle with   [sample codes](http://www.ideamart.lk/web/idea-pro/downloads/download-list/) here 
+
+ # Feedback
+Report any feedback or problems with this Release Candidate to the Github Issues for ideamart API.
 
 
 License
