@@ -1,0 +1,62 @@
+.cass_header{
+    font-family: 'Arista2.0LightRegular', Arial, Helvetica, sans-serif;
+    color: orange;
+}
+.boby-padding {
+    height: 80%;
+    padding-top: 5%;
+    padding-bottom: 40px;
+}
+.msisdn_box{
+    margin-left: 30px;
+}
+
+#msisdn_box_height{
+    height: 3.5%;
+}
+#amount_box{
+    margin-left: 87px;
+    height: 3.5%;
+}
+.submit_btn{
+    margin-left: 288px;
+}
+.back_btn{
+    margin-left: 120px;
+}
+.text_label{
+    font-family:arial;
+    color: purple;
+}
+
+.dedit-content-unit {
+    padding: 5%;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    color: inherit;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.query-content-unit {
+    padding: 6%;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    color: inherit;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.footer{
+    background-color: inherit;
+    color: darkgreen;
+}
+.hsenid_link{
+    color: darkgreen;
+}

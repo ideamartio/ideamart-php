@@ -1,0 +1,59 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Query Balance Sample App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="../bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="../custom-css/custom.css" rel="stylesheet">
+</head>
+<body class="boby-padding">
+<div class=" navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <ul class="nav">
+                <li><a href="DirectDebitSampleApp.html">Direct Debit</a>
+                </li>
+                <li><a class="active" href="QueryBalanceSample.html">Query Balance</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="hero-unit ">
+        <h2>Hello, world!</h2>
+        <p>This is a simple Query Balance application.When you include a msisdn and submit a query it shows the current debit balance. Use it as a starting point to create something more unique.</p>
+    </div>
+</div>
+<div id="container">
+    <div class="tab-content">
+        <div id="tab1">
+            <div class="query-content-unit " align="center">
+                <h2 class="cass_header">Query Balance</h2>
+
+                <form action="../php/QueryBalanceHandler.php" method="post">
+                    <span class="text_label">Enter MSISDN  </span><input type="text" name="msisdn" class="msisdn_box"
+                                                                         id="msisdn_box_height">
+                    <br/>
+                    <input type="submit" class="btn btn-success submit_btn" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <div align="center" style="color: darkgreen">
+        <span>Copyright &#169; 2013 <a class="hsenid_link" href="http://www.hsenidmobile.com/">hSenid Mobile Solutions (Pvt) Ltd</a>. All Rights Reserved.</span>
+    </div>
+</div>
+<script src="../bootstrap/js/bootstrap.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>

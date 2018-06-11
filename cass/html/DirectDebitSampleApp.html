@@ -1,0 +1,60 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Direct Debit Sample App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="../bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="../custom-css/custom.css" rel="stylesheet">
+</head>
+<body class="boby-padding">
+<div class=" navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <ul class="nav">
+                <li class="active"><a href="DirectDebitSampleApp.html">Direct Debit</a>
+                </li>
+                <li><a href="QueryBalanceSample.html">Query Balance</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="hero-unit">
+        <h2>Hello, world!</h2>
+        <p>This is a simple direct debit application. When you submit a query with msisdn and debit amount, it shows the response content after success debit transaction. Use it as a starting point to create something more unique.</p>
+    </div>
+</div>
+<div id="container">
+    <div class="dedit-content-unit">
+        <div id="tab1">
+            <div align="center">
+                <h2 class="cass_header">Direct Debit</h2>
+
+                <form action="../php/DirectDebitHandler.php" method="post">
+                    <span class="text_label">Enter MSISDN  </span><input type="text" name="msisdn" class="msisdn_box"
+                                                                         id="msisdn_box_height">
+                    <br/>
+                    <span class="text_label">Amount  </span><input type="text" name="amount" id="amount_box">
+                    <br/>
+                    <input type="submit" class="btn btn-success submit_btn" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div align="center">
+            <span>Copyright &#169; 2013 <a href="http://www.hsenidmobile.com/" class="hsenid_link">hSenid Mobile Solutions (Pvt) Ltd.</a> All Rights Reserved.</span>
+        </div>
+    </div>
+</div>
+<script src="../bootstrap/js/bootstrap.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>

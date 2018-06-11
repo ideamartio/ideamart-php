@@ -1,0 +1,112 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>LBS Sample App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="../custom-css/custom.css" rel="stylesheet">
+    <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript">
+
+        var timer;
+        var getFormData = function(){
+            var data = {};
+            data.msisdn = $("#msisdn").val();
+            return data;
+        }
+
+        var populateResultTable =  function(data){
+            data = JSON.parse(data);
+            $("#results").append("<tr><td>"+data.timeStamp+"</td>"+
+                    "<td>"+data.horizontalAccuracy+"</td>"+
+                    "<td>"+data.longitude+"</td>"+
+                    "<td>"+data.latitude+"</td></tr>");
+        }
+
+        var updateLbs =function(){
+                var formData = getFormData();
+                $.post( "../php/LbsSampleApp.php",formData, populateResultTable);
+        }
+
+        var validateMsisdn = function(){
+            $("#error_bar").text("");
+            if($("#msisdn").val()==""){
+                $("#error_bar").text("MSISDN should not be empty");
+                return false;
+            }else{
+                return true;
+            }
+        }
+
+        var doTimerOperation = function(){
+            if ($("#btn_start_stop").text()=="Start"){
+                $("#results").html("");
+                timer = setInterval(updateLbs,3000);
+                $("#btn_start_stop").text("Stop");
+            }else{
+                $("#btn_start_stop").text("Start");
+                window.clearInterval(timer);
+            }
+            return false;
+        }
+    </script>
+</head>
+<body>
+<div class=" navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <ul class="nav">
+                <li class="active"><a href="LbsSampleApp.html">LBS Sample App</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<br/>
+<br/>
+<br/>
+<div class="container">
+    <div class="row">
+        <div class="span12" style="text-align: center">
+            <h2 class="cass_header">LBS Track Me</h2>
+        </div>
+        <div class="row">
+            <div class="span12" style="text-align: center;">
+                <div class="form-inline " id="commentForm" action="">
+                  <label class="control-label text_label">MSISDN</label> <input type="text" id="msisdn" name="msisdn" placeholder="MSISDN"/>
+                  <button class="btn btn-success submit_btn" onclick="validateMsisdn()? doTimerOperation():false;" id="btn_start_stop">Start</button>
+                </div>
+                <div class="error" id="error_bar"></div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12 ">
+            <h2 class="span4 cass_header">LBS Response</h2>
+            <div class="well span11" id="result-container">
+                <table class="table-striped table-bordered span10 " >
+                    <thead>
+                        <th>TimeStamp</th>
+                        <th>HorizontalAccuracy</th>
+                        <th>Longitude</th>
+                        <th>Latitude</th>
+                    </thead>
+                    <tbody id="results">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div align="center">
+            <span>Copyright &#169; 2013 <a href="http://www.hsenidmobile.com/" class="hsenid_link">hSenid Mobile Solutions (Pvt) Ltd.</a> All Rights Reserved.</span>
+        </div>
+    </div>
+</div><!--container ends-->
+<script src="../bootstrap/js/bootstrap.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

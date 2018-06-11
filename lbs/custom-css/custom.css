@@ -1,0 +1,35 @@
+.cass_header{
+    color: orange;
+}
+
+.text_label{
+   color: purple;
+   font-size: 18px;
+
+}
+.footer{
+    background-color: inherit;
+    color: darkgreen;
+}
+
+.hsenid_link{
+    color: darkgreen;
+}
+
+#result-container{
+    height: 250px;
+    overflow:auto;
+    background-color:white;
+}
+
+#results tr td{
+    text-align: center;
+}
+
+#msisdn{
+    height:30px;
+}
+
+.error{
+    color:red;
+}
