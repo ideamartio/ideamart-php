@@ -9,7 +9,7 @@ Imagine you need to send an SMS and get the delivery notification, invoke a USSD
 
   - ###### Java  - [API Reference](http://breakdance.io)
   - ###### PHP -  [API Reference](http://breakdance.io)
-  - ###### Phython -  [API Reference](http://breakdance.io)
+  - ###### Python -  [API Reference](http://breakdance.io)
   - ###### Go -  [API Reference](http://breakdance.io)
   
   
