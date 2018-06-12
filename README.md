@@ -37,9 +37,6 @@ ideamart officially support PHP, Java, Python, Go, Nodejs programming languages
 ##### php requirments
 PHP >= 5.6 is supported 
 
-##### Java requirments
-...
-
 
 ### Installation
 If you have PHP installed locally or a server and you would like to use PHP's built-in development server to serve your application,
