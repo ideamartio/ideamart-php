@@ -1,9 +1,8 @@
 <p align="center"><a href="https://ideamart.lk" target="_blank"><img src="http://www.ideamart.lk/web/wp-content/uploads/2017/02/logo-dark.png"></a></p>
 
 <p align="center">
-<a href="https://github.com/ideamartio/ideamart-php/network"><img src="https://img.shields.io/github/issues/ideamartio/ideamart-php.svg" alt="Total Downloads"></a>
+<a href="#"><img src="https://img.shields.io/php-eye/symfony/symfony.svg" alt="Total Downloads"></a>
 <a href="#"><img src="https://img.shields.io/packagist/php-v/symfony/symfony.svg" alt="Total Downloads"></a>
-![PHP version from PHP-Eye](https://img.shields.io/php-eye/symfony/symfony.svg)
 <a href="#"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
