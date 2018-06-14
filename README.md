@@ -11,7 +11,7 @@
 
 
 What do you get when you couple your programming knowledge with the Ideamart platform? An IdeaPro application with endless possibilities!
-Imagine you need to send an SMS and get the delivery notification, invoke a USSD menu in a registered user’s phone, or even make an in in-app purchase through the carrier billing! IdeaPro is where you can bring your ideas to life!
+With Ideamart APIs you can send/receive SMS, get SMS delivery notification, invoke a USSD menu with the USSD API, Implement location based services using LBS API or even make an in-app purchse through the carrier billing. IdeaPro is where you can bring your ideas to life and monetize them.
   
   #### Ideamart by Platform
 
