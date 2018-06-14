@@ -1,11 +1,8 @@
 <p align="center"><a href="https://ideamart.lk" target="_blank"><img src="http://www.ideamart.lk/web/wp-content/uploads/2017/02/logo-dark.png"></a></p>
 
 <p align="center">
-
-
-[![GitHub issues](https://img.shields.io/github/issues/ideamartio/ideamart-php.svg)](https://github.com/ideamartio/ideamart-php/issues)
-<a href="https://github.com/ideamartio/ideamart-php/issues"><img src="https://img.shields.io/github/issues/ideamartio/ideamart-php.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
+<a href="https://github.com/ideamartio/ideamart-php/network"><img src="https://img.shields.io/github/issues/ideamartio/ideamart-php.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/github/forks/ideamartio/ideamart-php.svg" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
