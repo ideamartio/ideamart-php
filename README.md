@@ -23,8 +23,8 @@ Imagine you need to send an SMS and get the delivery notification, invoke a USSD
   
 #### Ideamart by Product
 
-  - ###### SMS API(Short Message Service)
-  - ###### USSD API(Unstructured Supplementary Service Data)
+  - SMS API(Short Message Service)
+  - USSD API(Unstructured Supplementary Service Data)
   - ###### CaaS API(Charging as a Service)
   - ###### LBS API (Location Based Service)
   - ###### Subscription API
