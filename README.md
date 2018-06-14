@@ -9,7 +9,6 @@
 
 # Welcome to Ideamart
 
-[![N|Solid](http://www.ideamart.lk/web/wp-content/uploads/2017/02/logo-dark.png)](https://nodesource.com/products/nsolid)
 
 What do you get when you couple your programming knowledge with the Ideamart platform? An IdeaPro application with endless possibilities!
 Imagine you need to send an SMS and get the delivery notification, invoke a USSD menu in a registered user’s phone, or even make an in in-app purchase through the carrier billing! IdeaPro is where you can bring your ideas to life!
