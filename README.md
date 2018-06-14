@@ -1,6 +1,7 @@
 <p align="center"><a href="https://ideamart.lk" target="_blank"><img src="http://www.ideamart.lk/web/wp-content/uploads/2017/02/logo-dark.png"></a></p>
 
 <p align="center">
+<a href="#"><img src="https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser.svg" alt="Total Downloads"></a>
 <a href="#"><img src="https://img.shields.io/php-eye/symfony/symfony.svg" alt="Total Downloads"></a>
 <a href="#"><img src="https://img.shields.io/packagist/php-v/symfony/symfony.svg" alt="Total Downloads"></a>
 <a href="#"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
