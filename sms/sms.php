@@ -18,10 +18,10 @@ date_default_timezone_set("Asia/Colombo");
 $serverurl= "https://api.dialog.lk/sms/send";
 
 //application id which you will receive in provisioning
-$applicationId = "APP_044477";
+$applicationId = "APP_xxxxxx";
 
 //application password which you will receive in provisioning
-$password= "296b00a636e26fabd545f72a091d6726";
+$password= "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
 try{
 	/*************************************************************/
