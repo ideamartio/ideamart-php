@@ -29,6 +29,7 @@ try{
 	$receiver = new SMSReceiver(file_get_contents('php://input'));
   //Get the message to the app
 	$content =$receiver->getMessage();
+  //Filter the unkonwn characters in the MO message
 	$content=preg_replace('/\s{2,}/',' ', $content);
   //Get the phone number from which the message was sent
 	$address = $receiver->getAddress();
